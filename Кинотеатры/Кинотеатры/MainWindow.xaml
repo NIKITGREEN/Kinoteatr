@@ -1,0 +1,18 @@
+﻿<Window x:Class="Кинотератры.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Кинотератры"
+        mc:Ignorable="d"
+        Title="Доступ" Height="182" Width="386">
+    <Grid>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="32,110,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="295,112,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click_1"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="295,42,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="193,42,0,0" Text="Пользователь" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Margin="32,40,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="193,112,0,0" Text="Пароль" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

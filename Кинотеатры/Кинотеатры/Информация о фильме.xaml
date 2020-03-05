@@ -1,0 +1,29 @@
+﻿<Window x:Class="Кинотератры.Информация_о_фильме"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Кинотератры"
+        mc:Ignorable="d"
+        Title="Информация_о_фильме" Height="450" Width="593" Closing="Window_Closing">
+    <Grid>
+        <DataGrid x:Name="DataFilm" Margin="35,125,35,25"/>
+        <TextBox x:Name="FilmName" HorizontalAlignment="Left" Margin="35,64,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="154"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,35,0,0" Text="Введите название фильма" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Поиск" HorizontalAlignment="Left" Margin="220,64,0,0" VerticalAlignment="Top" Width="67" Click="Button_Click"/>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Информация">
+                <MenuItem Header="Кинотеатры" Click="MenuItem_Click_7"></MenuItem>
+                <MenuItem Header="Залы" Click="MenuItem_Click"></MenuItem>
+                <MenuItem Header="Фильмы" Click="MenuItem_Click_1" ></MenuItem>
+                <MenuItem Header="Сеансы" Click="MenuItem_Click_2"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Справка" >
+                <MenuItem Header="Репертуар кинотеатры" Click="MenuItem_Click_3"></MenuItem>
+                <MenuItem Header="Информация о кинотере" Click="MenuItem_Click_4" ></MenuItem>
+                <MenuItem Header="Поиск по определенному актеру"  Click="MenuItem_Click_5"></MenuItem>
+                <MenuItem Header="Информация о фильме"  Click="MenuItem_Click_6"></MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

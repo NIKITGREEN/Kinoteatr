@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Залы.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Информация о фильме.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Информация об кинотеатре.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Кинотеатры.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Поиск.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Репертуар кинотеатра.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Сеансы.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Фильмы.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Залы.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Информация о фильме.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Информация об кинотеатре.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Кинотеатры.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Поиск.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Репертуар кинотеатра.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Сеансы.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Фильмы.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

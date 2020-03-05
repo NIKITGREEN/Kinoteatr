@@ -1,0 +1,40 @@
+﻿<Window x:Class="Кинотератры.Сеансы"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Кинотератры"
+        mc:Ignorable="d"
+        Title="Сеансы" Height="544" Width="553" Closing="Window_Closing">
+    <Grid>
+        <DataGrid x:Name="DataSeans" Margin="44,30,35,293"/>
+        <ComboBox x:Name="FilmBox" HorizontalAlignment="Left" Margin="44,252,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="KinoBox" HorizontalAlignment="Left" Margin="44,302,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="RoomBox" HorizontalAlignment="Left" Margin="44,353,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.041,-0.38"/>
+        <TextBox x:Name="Times" HorizontalAlignment="Left" Margin="44,399,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Dates" HorizontalAlignment="Left" Margin="44,439,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Costs" HorizontalAlignment="Left" Margin="44,476,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,258,0,0" Text="Название фильма" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,308,0,0" Text="Кинотеатр" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,359,0,0" Text="Зал" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,401,0,0" Text="Время" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,444,0,0" Text="Дата" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,478,0,0" Text="Стоимость" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="441,418,0,0" VerticalAlignment="Top" Height="33" Width="77" Click="Button_Click"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="441,476,0,0" VerticalAlignment="Top" Height="30" Width="77" Click="Button_Click_1"/>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Информация">
+                <MenuItem Header="Кинотеатры" Click="MenuItem_Click_7"></MenuItem>
+                <MenuItem Header="Залы" Click="MenuItem_Click"></MenuItem>
+                <MenuItem Header="Фильмы" Click="MenuItem_Click_1" ></MenuItem>
+                <MenuItem Header="Сеансы" Click="MenuItem_Click_2"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Справка" >
+                <MenuItem Header="Репертуар кинотеатры" Click="MenuItem_Click_3"></MenuItem>
+                <MenuItem Header="Информация о кинотере" Click="MenuItem_Click_4" ></MenuItem>
+                <MenuItem Header="Поиск по определенному актеру"  Click="MenuItem_Click_5"></MenuItem>
+                <MenuItem Header="Информация о фильме"  Click="MenuItem_Click_6"></MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

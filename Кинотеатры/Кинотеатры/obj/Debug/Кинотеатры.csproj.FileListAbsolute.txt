@@ -1,0 +1,35 @@
+E:\хуй\Кинотеатры\Кинотеатры\bin\Debug\Кинотеатры.exe.config
+E:\хуй\Кинотеатры\Кинотеатры\bin\Debug\Кинотеатры.exe
+E:\хуй\Кинотеатры\Кинотеатры\bin\Debug\Кинотеатры.pdb
+E:\хуй\Кинотеатры\Кинотеатры\bin\Debug\EntityFramework.dll
+E:\хуй\Кинотеатры\Кинотеатры\bin\Debug\EntityFramework.SqlServer.dll
+E:\хуй\Кинотеатры\Кинотеатры\bin\Debug\EntityFramework.xml
+E:\хуй\Кинотеатры\Кинотеатры\bin\Debug\EntityFramework.SqlServer.xml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.csprojAssemblyReference.cache
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\MainWindow.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Залы.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Информация о фильме.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Информация об кинотеатре.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Поиск.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Репертуар кинотеатра.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Сеансы.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Фильмы.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\App.g.cs
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры_MarkupCompile.cache
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры_MarkupCompile.lref
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\MainWindow.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Залы.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Информация о фильме.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Информация об кинотеатре.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Поиск.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Репертуар кинотеатра.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Сеансы.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Фильмы.baml
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.g.resources
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.Properties.Resources.resources
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.csproj.GenerateResource.cache
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.csproj.CopyComplete
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.exe
+E:\хуй\Кинотеатры\Кинотеатры\obj\Debug\Кинотеатры.pdb
